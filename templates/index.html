@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to GPA Calculator</h1>
+    <form method="post" action="/">
+        <label for="num_subjects">Enter the number of subjects:</label>
+        <input type="number" name="num_subjects" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
